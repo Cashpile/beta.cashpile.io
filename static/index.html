@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Beta &bull; Cashpile</title>
+    <meta
+      name="description"
+      content="Pay Together! - Pay bills with a fund created collaboratively."
+    />
+
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://assets.cashpile.io/web/shared/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://assets.cashpile.io/web/shared/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="150x150"
+      href="https://assets.cashpile.io/web/shared/favicon/mstile-150x150.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://assets.cashpile.io/web/shared/favicon/apple-touch-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="https://assets.cashpile.io/web/shared/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="https://assets.cashpile.io/web/shared/favicon/android-icon-512x512.png"
+    />
+
+    <link
+      rel="manifest"
+      href="https://assets.cashpile.io/web/shared/favicon/site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="https://assets.cashpile.io/web/shared/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="apple-mobile-web-app-title" content="Cashpile" />
+    <meta name="application-name" content="Cashpile" />
+    <meta name="msapplication-TileColor" content="#00a300" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <image
+      src="https://assets.cashpile.io/web/www/icons/shape-transparent.png"
+      alt="Cashpile"
+      class="logo"
+      style="width: 115px; height: 115px"
+    />
+    <div style="height: 1.5vh"></div>
+    <h1 class="title" style="color: white; margin: 0">
+      Welcome to Cashpile's Beta.
+    </h1>
+    <div style="height: 2vh"></div>
+    <h2 class="subtitle" style="color: white; margin: 0">
+      Please select your device:
+    </h2>
+    <div style="height: 3.5vh"></div>
+    <button class="cybr-btn">
+      <a id="ios" href="https://beta.cashpile.io/ios">
+        Apple<span aria-hidden>_</span>
+        <span aria-hidden class="cybr-btn__glitch">Apple_</span>
+        <span aria-hidden class="cybr-btn__tag">Beta</span>
+      </a>
+    </button>
+    <button class="cybr-btn">
+      <a id="android" href="https://beta.cashpile.io/android">
+        Android<span aria-hidden>_</span>
+        <span aria-hidden class="cybr-btn__glitch">Android_</span>
+        <span aria-hidden class="cybr-btn__tag">Beta</span>
+      </a>
+    </button>
+    <script>
+      document.getElementById('ios').href = window.location.href + 'ios'
+      document.getElementById('android').href = window.location.href + 'android'
+    </script>
+  </body>
+</html>
